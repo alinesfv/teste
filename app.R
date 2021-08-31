@@ -6,8 +6,8 @@ library(leaflet)
 library(rgdal)
 library(RColorBrewer)
 
-regiao <- readOGR("~/GitHub/Dados/Regioes de saude.shp", verbose = FALSE)
-dados <- read.table("~/GitHub/Dados/dados.csv",
+regiao <- readOGR("~/Dados/Regioes de saude.shp", verbose = FALSE)
+dados <- read.table("~/Dados/dados.csv",
                     header = TRUE,
                     sep = ";")
 
